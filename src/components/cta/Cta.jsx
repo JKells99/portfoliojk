@@ -14,7 +14,7 @@ const Cta = () => {
         <h2 className="display-2">
           I am a <span className="text-primary">Full Stack Developer</span>
         </h2>
-        <div className="d-flex gap-5 pb-4 ">
+        <div className="d-flex gap-5 pb-3 ">
           <a href="https://ca.linkedin.com/in/jordan-kelloway-940503243">
             <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
