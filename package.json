@@ -2,7 +2,7 @@
   "name": "portfoliojk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JKells99.github.io/portfoliojk",
+  "homepage": "https://jkelloway.me",
 
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
