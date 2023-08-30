@@ -1,6 +1,6 @@
 import './App.css';
 import Contact from './components/contactform/Contact';
-import Cta from './components/cta/Cta';
+import Home from './components/home/Home';
 import Header from './components/header/Header';
 import { useEffect } from 'react';
 
@@ -18,7 +18,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/" element={<Cta/>}></Route>
+          <Route path="/" element={<Home/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
           
 

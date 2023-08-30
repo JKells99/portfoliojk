@@ -9,13 +9,13 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
  
 return (
-    <Navbar bg="white" variant="light" expand="xl" style={{borderBottom: '1px solid #ccc', height:'80px'}}>
-        <Container fluid>
-            <Navbar.Brand href="/" style={{"color":'#0d6efd'}}>
+    <Navbar bg="white" variant="light" expand="md" style={{ height:'80px'}}>
+        <Container fluid style={{borderBottom:"1px solid #ccc", paddingBottom:'8px'}}>
+            <Navbar.Brand href="/" style={{"color":'#0d6efd', fontSize:'24px'}}>
             <FontAwesomeIcon icon={faGhost} /> Jordan Kelloway
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
+            <Navbar.Collapse id="navbarScroll" >
                     <Nav
                         className="ms-auto my-2 my-lg-0"
                         style={{maxHeight: '100px'}}

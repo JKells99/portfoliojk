@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDiscord,
   faFacebook,
+  faGithub,
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -18,7 +19,7 @@ const Cta = () => {
    
 
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5 ">
+    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5" style={{height:'100%'}} >
       <div className="headings p-5 ">
         <h1 className="display-1">Hello There,</h1>
         <h1 className="display-1">I'm Jordan Kelloway!</h1>
@@ -38,8 +39,8 @@ const Cta = () => {
             <FontAwesomeIcon icon={faTwitter} size="3x" />
           </a>
 
-          <a href="https://ca.linkedin.com/in/jordan-kelloway-940503243">
-            <FontAwesomeIcon icon={faDiscord} size="3x" />
+          <a href="https://github.com/JKells99">
+            <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
         </div>
         <Contact/>
