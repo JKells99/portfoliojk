@@ -19,7 +19,7 @@ const Cta = () => {
    
 
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5" style={{height:'100%'}} >
+    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5 " >
       <div className="headings p-5 ">
         <h1 className="display-1">Hello There,</h1>
         <h1 className="display-1">I'm Jordan Kelloway!</h1>
@@ -50,7 +50,7 @@ const Cta = () => {
         
       </div>
 
-      <div className="p-5">
+      <div className="p-3">
         <img
           src="https://media.licdn.com/dms/image/C5603AQG0keqF_l5g6Q/profile-displayphoto-shrink_800_800/0/1656249794101?e=2147483647&v=beta&t=Xi-ZHaBhVnt6EiuYigFNJedwwA8d-r1ZMd6gupAG3Gk"
           alt="My Profile Pic"

@@ -12,7 +12,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", when: "afterChildren", duration: 1.5 }}
         
-        style={{ backgroundColor: "#f0f0f0", padding: "5px", marginTop:'350px'}}
+        style={{ backgroundColor: "#f0f0f0", padding: "5px", marginTop:'160px'}}
       >
         <AboutMe />
       </motion.div>
