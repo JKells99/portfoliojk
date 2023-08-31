@@ -9,7 +9,7 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
  
 return (
-    <Navbar bg="white" variant="light" expand="lg" style={{ height:'80px'}}>
+    <Navbar bg="white" variant="light" expand="lg" >
         <Container fluid style={{borderBottom:"1px solid #ccc", paddingBottom:'8px'}}>
             <Navbar.Brand href="/" style={{"color":'#0d6efd', fontSize:'24px'}}>
             <FontAwesomeIcon icon={faGhost} /> Jordan Kelloway
@@ -18,7 +18,7 @@ return (
             <Navbar.Collapse id="navbarScroll" >
                     <Nav
                         className="ms-auto my-2 my-lg-0"
-                        style={{maxHeight: '104px'}}
+                        style={{maxHeight: '160px'}}
                         navbarScroll
                     >
                     <NavLink className ="nav-link" to="/">Home</NavLink>
