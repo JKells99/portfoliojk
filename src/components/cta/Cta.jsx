@@ -20,8 +20,8 @@ const Cta = () => {
    
 
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-5 " >
-      <div className="headings p-5 ">
+    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center p-4 mt-5" >
+      <div className="headings  ">
         <h1 className="display-1">Hello There,</h1>
         <h1 className="display-1">I'm Jordan Kelloway!</h1>
         <h2 className="display-2">
