@@ -22,9 +22,9 @@ return (
                         navbarScroll
                     >
                     <NavLink className ="nav-link" to="/">Home</NavLink>
-                    <NavLink className ="nav-link" to="/watchList">About Me</NavLink> 
-                    <NavLink className ="nav-link" to="/watchList">Projects</NavLink>
-                    <NavLink className ="nav-link" to="/watchList">Contact Me</NavLink>       
+                    <NavLink className ="nav-link" to="/">About Me</NavLink> 
+                    <NavLink className ="nav-link" to="/">Projects</NavLink>
+                    <NavLink className ="nav-link" to="/">Contact Me</NavLink>       
 
                 </Nav>
 

@@ -5,6 +5,7 @@ import {
   faGithub,
   faLinkedin,
   faTwitter,
+  faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
 
 import Contact from "../contactform/Contact";
@@ -31,12 +32,8 @@ const Cta = () => {
             <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
 
-          <a href="https://ca.linkedin.com/in/jordan-kelloway-940503243">
-            <FontAwesomeIcon icon={faFacebook} size="3x" />
-          </a>
-
-          <a href="https://ca.linkedin.com/in/jordan-kelloway-940503243">
-            <FontAwesomeIcon icon={faTwitter} size="3x" />
+          <a href="https://twitter.com/Jkelloway2">
+            <FontAwesomeIcon icon={faXTwitter} size="3x" />
           </a>
 
           <a href="https://github.com/JKells99">
