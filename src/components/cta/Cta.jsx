@@ -51,7 +51,8 @@ const Cta = () => {
         <img
           src="https://media.licdn.com/dms/image/C5603AQG0keqF_l5g6Q/profile-displayphoto-shrink_800_800/0/1656249794101?e=2147483647&v=beta&t=Xi-ZHaBhVnt6EiuYigFNJedwwA8d-r1ZMd6gupAG3Gk"
           alt="My Profile Pic"
-          className="img-fluid rounded-circle "
+          className="img-fluid rounded-circle"
+          style={{maxHeight:'700px'}}
         />
       </div>
     </div>
