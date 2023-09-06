@@ -3,26 +3,27 @@ import Container from '@mui/material/Container';
 
 const AboutMe = () => {
   return (
-    <Container maxWidth="xl" className="p-5">
+    <Container maxWidth="xl" className="p-3">
 
    
       <div className="d-flex flex-xl-row flex-column align-items-center">
         <img
           className="img-fluid"
-          src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/221852688_10157732688340728_2945249185064982377_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tlbB7EFYv68AX_s_kj8&_nc_ht=scontent-lga3-1.xx&oh=00_AfCci2ZBkezqRW1I7wXYTGU7mTO89X9nmcoOFeOoAPrdZw&oe=64F4FA10"
+          src="https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/221852688_10157732688340728_2945249185064982377_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=X6QM6wO8X3UAX_1TGZU&_nc_ht=scontent-lga3-1.xx&oh=00_AfAq0DnZusUMrnFA82M17lnVYB0RKT-IDikcTQO_mFptUA&oe=64FCE310"
           alt="First slide"
           style={{
-            maxHeight: "700px",
+            maxHeight: "400px",
            
 
             borderRadius: "80px",
             border: "1px solid black",
             marginBottom: "64px",
+            
           }}
         />
 
         <div
-          className="text-center flex-sm-column"
+          className="text-center flex-xl-column"
           style={{ fontSize: "22px" }}
         >
           <h1 className="display-1 text-center pb-2">About Me</h1>

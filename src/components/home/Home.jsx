@@ -2,6 +2,7 @@ import React from "react";
 import Cta from "../cta/Cta";
 import AboutMe from "../aboutme/AboutMe";
 import { motion, spring } from "framer-motion";
+import TechnologiesGrid from "../technologies/TechnologiesGrid";
 
 const Home = () => {
   return (
@@ -16,6 +17,8 @@ const Home = () => {
       >
         <AboutMe />
       </motion.div>
+
+      <TechnologiesGrid/>
     </div>
   );
 };
