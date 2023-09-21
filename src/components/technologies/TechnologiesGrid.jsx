@@ -15,7 +15,7 @@ import {
 
 const TechnologiesGrid = () => {
   const rowStyle = {
-    marginTop: "50px",
+    marginTop: "48px",
   };
 
   const colStyle = {
@@ -30,7 +30,7 @@ const TechnologiesGrid = () => {
       <Row>
         {/* Left column for icons */}
         <Col xs={12} sm={12} md={4} lg={12} xl={12}>
-          <h1 className="display-1 text-center pb-4">Technical Skills</h1>
+          <h1 className="display-1 text-center pb-3">Technical Skills</h1>
           <Row className="text-primary d-flex justify-content-center">
             <Col style={colStyle}>
               <FontAwesomeIcon icon={faReact} bounce />
@@ -66,20 +66,20 @@ const TechnologiesGrid = () => {
           </Row>
         </Col>
 
-        {/* Right column for text */}
-        <Col xs={12} sm={12} md={4} lg={12} xl={12} className=" d-flex pt-5 text-center align-item-center" style={{marginTop:'100px'}}>
-          <p style={{ fontSize: "24px" }}>
-            My techincial skills include React,HTML,CSS,Tailwind, Javascript for
-            Front End.{" "}
-            <p>
+        
+        <Col xs={12} sm={12} md={4} lg={12} xl={12} className="  d-flex flex-column text-center align-items-center m-3 justify-content-center" style={{marginTop:'64px', lineHeight:'24px', padding:'5px'}}>
+          <p  style={{ fontSize: "24px" }}>
+            My techincial skills include React, HTML, CSS,Tailwind, Javascript for
+            Front End.
+            <p className="pb-2">
               {" "}
               My skills in Back End include Java (Springboot), Javascript(Node
               along with Express), and Python(Django).
             </p>{" "}
-            <p>
+            <p className="p-3" >
               I have been exposed to both SQL and NoSQL Databases. Some include
               Mongo,Postgres, MySql. I have also completed 3 levels of AWS
-              courses. They include AWS Cloud Foundations, AWS Cloud Developing,
+              courses.They include AWS Cloud Foundations, AWS Cloud Developing,
               and AWS Soulitions Architect
             </p>
           </p>
