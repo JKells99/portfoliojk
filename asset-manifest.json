@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.90c624fe.css",
-    "main.js": "/static/js/main.8f31a3f0.js",
+    "main.css": "/static/css/main.a178223d.css",
+    "main.js": "/static/js/main.5e132393.js",
+    "static/media/jordank.jpg": "/static/media/jordank.9d86d24091ba257ba0ba.jpg",
     "index.html": "/index.html",
-    "main.90c624fe.css.map": "/static/css/main.90c624fe.css.map",
-    "main.8f31a3f0.js.map": "/static/js/main.8f31a3f0.js.map"
+    "main.a178223d.css.map": "/static/css/main.a178223d.css.map",
+    "main.5e132393.js.map": "/static/js/main.5e132393.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c624fe.css",
-    "static/js/main.8f31a3f0.js"
+    "static/css/main.a178223d.css",
+    "static/js/main.5e132393.js"
   ]
 }
